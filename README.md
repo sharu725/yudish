@@ -45,7 +45,7 @@ Default theme will look like this
 This theme is responsive.
 
 ![webjeda yudish jekyll responsive theme](/images/yudish-responsive-jekyll-theme.png)
-{: style="text-align:center" }
+
 
 # Customization
 Theme can be customized by changing the brand color in **_config.yml**.
