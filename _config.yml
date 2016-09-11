@@ -8,12 +8,48 @@
 # Site settings
 title: Yudish Tira
 tagline: "<a target='_blank' href='https://en.wikipedia.org/wiki/Yudhishthira'>I'm the eldest.</a> I don't lie, I never will!"
+picture: yudish.jpg #keep a 100x100 image inside images folder.
 email: hello@email.com
 description: > # this means to ignore newlines until "baseurl:"
   Yudish is a minimal Jekyll theme for content oriented websites with less distractions.
 baseurl: "/yudish" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-
+brand-color: '#e74c3c'
 
 # Build settings
 markdown: kramdown
+sass:
+  style: compressed
+  
+disqus-shortname: webjeda-sample
+analytics: UA-83979019-1
+
+include: [_pages]
+
+
+
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+  
+  
+prose:
+  rooturl: ''
+  siteurl: 'http://prose.github.io/starter/'
+  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+
+
+gems: [jekyll-paginate, jekyll-seo-tag]

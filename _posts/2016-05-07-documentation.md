@@ -1,4 +1,7 @@
-**Demo:** [http://webjeda.com/yudish/](http://webjeda.com/yudish/)
+---
+layout: post
+title: Documentation
+---
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
