@@ -30,15 +30,14 @@ Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is importa
 ## How to delete old **gh-pages** branch?
 After forking the repository, click on **branches**.
 
-
-![delete gh-pages branch]({{site.baseurl}}/images/delete-github-branch.png)
+![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch.png)
 
 Delete ``gh-pages`` branch.
-![delete gh-pages branch]({{site.baseurl}}/images/delete-github-branch-2.png)
+![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch-2.png)
 
 You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
 
-![create gh-pages branch]({{site.baseurl}}/images/create-gh-pages-branch.JPG){: style="border: 1px solid #eee" }
+![create gh-pages branch](http://blog.webjeda.com/images/create-gh-pages-branch.JPG)
 
 Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
 
@@ -46,35 +45,26 @@ This process will host the theme as a **Project Page**. You can also download th
 
 Default theme will look like this
 
-![webjeda thunder jekyll theme]({{site.baseurl}}/images/thunder-jekyll-theme.jpg)
+
+![webjeda yudish jekyll theme]({{site.baseurl}}/images/yudish-jekyll-theme.png)
 
 This theme is responsive.
 
-![webjeda thunder jekyll responsive theme]({{site.baseurl}}/images/thunder-responsive-jekyll-theme.jpg)
+![webjeda yudish jekyll responsive theme]({{site.baseurl}}/images/yudish-responsive-jekyll-theme.png)
 {: style="text-align:center" }
 
 # Customization
+Theme can be customized by changing the brand color in **_config.yml**.
 
-## Theme
-The theme provides a nice header that can be customized by changing colors in the **_config.yml** file.
+``brand-color: '#3498db'``
 
-{% highlight yaml %}
-
-#color scheme
-color-1: '#E64C3C'
-color-2: '#F0C419' 
-
-{% endhighlight %}
-
-![webjeda sidebar theme]({{site.baseurl}}/images/thunder-jekyll-theme-2.jpg)
+![webjeda yudish customized jekyll theme]({{site.baseurl}}/images/yudish-jekyll-theme-2.png)
 
 Remember, while developing locally, every change you make in **_config.yml** is applied only if you restart ``jekyll serve`` process.
 
 ## Font 
-The default font is Helvetica. Text shadow is used to give it a little deapth.
+The default font is Robota.
 
-## Logo
-The **webjeda thunder** logo is an SVG file. This can be removed and text can be used as the logo. Make these changes in the **header** file. But I suggest to use an SVG or an image.
 
 # Development
 Make changes to the **master** branch and create a pull request. Do not use **gh-pages** branch as it is used to host the theme.
@@ -84,7 +74,7 @@ MIT License
 
 # Changelog
 <pre>
-version 1.0 - Color-bar is now css. SEO improvements. Added an author section.  
+version 0.9 - SEO improvements. Added an author section.  
   
-version 0.9 - Minimal design, small and compressed css, built in disqus comments, compressed html, superfast loading UI.
+version 0.8 - Minimal design, small and compressed css, built in disqus comments, compressed html, superfast loading UI.
 </pre>
