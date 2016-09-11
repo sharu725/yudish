@@ -1,16 +1,17 @@
 
-   *{
-    -webkit-transition: all 0.3s; /* Safari */
+*{
+    -webkit-transition: all 0.2s; /* Safari */
     -webkit-transition-timing-function: linear; /* Safari */
-    transition: all 0.3s;
+    transition: all 0.2s;
     transition-timing-function: linear;
       }
 
-html{
+html {
  font-family: $base-font-family;
  text-rendering: optimizeLegibility;
  color: $text-color;
  line-height: $base-line-height;
+ font-size: $base-font-size;
 }
 
 a {
@@ -40,6 +41,61 @@ img {
     z-index: 100;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+    color: $brand-color;
+}
+
+h1 {
+    font-size: 2.5em;
+    @media screen and (max-width: $on-palm) {
+         font-size: 1.5em;
+    }
+}
+h2 {
+    font-size: 1.5em;
+    @media screen and (max-width: $on-palm) {
+         font-size: 1.25em;
+    }
+}
+
+h3 {
+    font-size: 1.25em;
+    @media screen and (max-width: $on-palm) {
+         font-size: 1.1em;
+    }
+}
+
+
+blockquote {
+    border-left: 3px solid $brand-color;
+    padding: 0.25em 0.25em 0.25em 1em;
+    background-color: rgba(231, 76, 60, 0.1);
+}
+
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $brand-color;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+code {
+    padding: 1px 5px;
+    
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
 .avatar {
     border-radius: 50%;
 }
@@ -51,15 +107,24 @@ img {
 }
 
 .main-title {
-    letter-spacing: 1px;
-    font-size: 55px;
+    font-size: 3em;
+    font-weight: 800;
     line-height: 0;
+    color: #111;
+     @media screen and (max-width: $on-palm) {
+         font-size: 2em;
+    }
 }
 
 .tagline {
+    font-size: 2em;
+    font-weight: 800;
     color: $grey-color;
+    opacity: 0.7;
+     @media screen and (max-width: $on-palm) {
+         font-size: 1.25em;
+    }
 }
-
 
 
 .post-meta {
@@ -84,5 +149,11 @@ img {
         color: #fff;
         background-color: $h-color;
     }
-
+    
+    @media screen and (max-width: $on-palm) {
+        padding: 2px 5px;
+        margin-left: 5px;
+    }
 }
+
+

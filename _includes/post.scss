@@ -1,20 +1,13 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-@charset "utf-8";
-
-
-
 // Our variables
 $base-font-family: 'Roboto', sans-serif;
 $base-font-size:   16px;
-$base-font-weight: 400;
+$base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #555;
 $background-color: #fdfdfd;
 $brand-color:      #e74c3c;
 $h-color:          #2ecc71;
@@ -47,7 +40,6 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
+        "post",
         "syntax-highlighting"
 ;
