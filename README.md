@@ -1,8 +1,5 @@
 **Demo:** [http://webjeda.com/yudish/](http://webjeda.com/yudish/)
 
-* Do not remove this line (it will not be displayed) 
-{:toc}
-
 # Features
 
 ## Customizable theme
