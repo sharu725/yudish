@@ -74,6 +74,8 @@ MIT License
 
 # Changelog
 <pre>
+version 1.0 - Stability tests and minor design changes.
+
 version 0.9 - SEO improvements. Added an author section.  
   
 version 0.8 - Minimal design, small and compressed css, built in disqus comments, compressed html, superfast loading UI.
