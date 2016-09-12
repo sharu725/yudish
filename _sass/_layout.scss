@@ -13,6 +13,11 @@ html {
  line-height: $base-line-height;
  font-size: $base-font-size;
 }
+body {
+    margin:0;
+    padding:0;
+    border-top: 2px solid $brand-color;
+}
 
 a {
     color: $brand-color;
@@ -43,7 +48,7 @@ img {
 
 h1,h2,h3,h4,h5,h6{
     font-weight: 400;
-    color: $brand-color;
+    color: rgba(231, 76, 60, 0.85);
 }
 
 h1 {
@@ -102,7 +107,7 @@ pre {
 
 .jumbo {
     text-align: center;
-    padding: 100px 30px 10px 30px;
+    padding: 40px 30px 10px 30px;
     border-bottom: 1px solid $grey-color-light;
 }
 
