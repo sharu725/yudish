@@ -14,8 +14,8 @@ html {
  font-size: $base-font-size;
 }
 body {
+    padding:0 10px 0 10px;
     margin:0;
-    padding:0;
     border-top: 2px solid $brand-color;
 }
 
@@ -150,6 +150,9 @@ pre {
     color: #fff;
     border-radius: 2px;
     margin-left: 10px;
+    &:last-child{
+        margin-right: 10px;
+    }
     &:hover{
         color: #fff;
         background-color: $h-color;
