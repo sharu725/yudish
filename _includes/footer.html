@@ -1,10 +1,15 @@
 <footer class="site-footer">
 
-  <div style="text-align:center" class="wrapper">
+  <div style="text-align:center" class="wrapper footer">
 
-    <p style="color: #777">Site Version 0.7</p>
-<a href="https://blog.webjeda.com"><img  src="https://img.shields.io/badge/Designed%20by-webjeda-red.svg"></a>
-
+   
+    {% if site.version %}
+    <p style="color: #777">Site Version {{site.version}}</p>
+    {% endif %} 
+    
+ {% if site.credits %}
+ <a href="https://blog.webjeda.com"><img  src="https://img.shields.io/badge/Designed%20by-webjeda-red.svg"></a>
+ {% endif %}
   </div>
 
 </footer>
