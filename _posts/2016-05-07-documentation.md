@@ -74,7 +74,7 @@ MIT License
 
 # Changelog
 <pre>
-version 1.0 - Stability tests and minor design changes.
+version 1.0 - Stability tests and minor fixes.
 
 version 0.9 - SEO improvements. Added an author section.  
   
