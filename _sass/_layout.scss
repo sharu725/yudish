@@ -122,8 +122,8 @@ pre {
 }
 
 .tagline {
-    font-size: 2em;
-    font-weight: 800;
+    font-size: 1.5em;
+    font-weight: 400;
     color: $grey-color;
     opacity: 0.7;
      @media screen and (max-width: $on-palm) {
@@ -133,11 +133,24 @@ pre {
 
 
 .post-meta {
-    color: $grey-color;
+    color: $background-color;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 14px;    
+    text-align: center;
+    background: #e74c3c;
+    color: #eee;
+    line-height: 1;
+    @media screen and (max-width: $on-palm) {
+        padding: 6px;
+        font-size: 0.8em;
+    }
 }
 
 .post-list {
     list-style: none;
+    margin:0;
+        padding:0;
 }
 
 .site-header {
@@ -168,4 +181,31 @@ pre {
 .footer {
     margin-top: 3em;
     border-top: 1px solid $grey-color-light;
+}
+
+
+
+.post-link {
+    display: inline-block;
+    margin-left: 1em;
+    @media screen and (max-width: $on-palm) {
+        margin-left: 0.5em;
+        font-size: 1em;
+    }
+}
+
+.post-box {
+    margin-bottom: 1em;
+    padding: 10px 60px;
+    @media screen and (max-width: $on-palm) {
+                padding: 0;
+                margin-bottom: 0.5em;
+    
+    }
+}
+
+
+.highlight {
+    margin: 0;
+    display: inline-block;
 }
