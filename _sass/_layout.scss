@@ -192,6 +192,9 @@ pre {
         margin-left: 0.5em;
         font-size: 1em;
     }
+    &:hover {
+        color: $h-color;
+    }
 }
 
 .post-box {
