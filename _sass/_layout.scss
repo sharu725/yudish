@@ -44,6 +44,9 @@ img {
     margin-top: 15px;
     text-align: right;
     z-index: 100;
+    @media screen and (max-width: $on-palm) {
+        text-align: center;
+    }
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -134,13 +137,17 @@ pre {
 
 .post-meta {
     color: $background-color;
-    display: inline-block;
+    display: table-cell;
     border-radius: 3px;
-    padding: 14px;    
+    padding: 18px;    
     text-align: center;
     background: #e74c3c;
     color: #eee;
+
     line-height: 1;
+    strong {
+            font-size: 1.4em;
+    }
     @media screen and (max-width: $on-palm) {
         padding: 6px;
         font-size: 0.8em;
@@ -150,7 +157,8 @@ pre {
 .post-list {
     list-style: none;
     margin:0;
-        padding:0;
+    padding:0;
+
 }
 
 .site-header {
@@ -186,8 +194,8 @@ pre {
 
 
 .post-link {
-    display: inline-block;
-    margin-left: 1em;
+    display: table-cell;
+    padding: 0.5em;
     @media screen and (max-width: $on-palm) {
         margin-left: 0.5em;
         font-size: 1em;
@@ -200,10 +208,11 @@ pre {
 .post-box {
     margin-bottom: 1em;
     padding: 10px 60px;
+    display: table;
+
     @media screen and (max-width: $on-palm) {
-                padding: 0;
-                margin-bottom: 0.5em;
-    
+           padding: 5px 30px;
+        
     }
 }
 
