@@ -50,6 +50,8 @@ MIT License
 
 # Changelog
 <pre>
+version 1.1 - Add Gemfile, delete gh-pages branch
+
 version 1.0 - Stability tests and minor fixes.
 
 version 0.9 - SEO improvements.
