@@ -14,8 +14,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Yudish is a minimal Jekyll theme for content oriented websites with less distractions.
 baseurl: "/yudish" # the subpath of your site, e.g. /blog
 url: "http://webjeda.com" # the base hostname & protocol for your site
-brand-color: '#e74c3c'
-permalink: ':title/'
+brand-color: "#e74c3c"
+permalink: ":title/"
 
 # Footer
 credits: webjeda #credits on the footer
@@ -29,17 +29,43 @@ highlighter: rouge
 
 sass:
   style: compressed
-  
+
 disqus-shortname: webjeda-sample
 analytics: UA-83979019-1
 
 include: [_pages]
 
-
-
 #compress.html
 compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  clippings:
+    [
+      html,
+      div,
+      p,
+      ul,
+      td,
+      h1,
+      h2,
+      h3,
+      h4,
+      link,
+      meta,
+      footer,
+      nav,
+      img,
+      header,
+      hr,
+      br,
+      head,
+      style,
+      li,
+      ul,
+      ol,
+      time,
+      main,
+      script,
+      title,
+    ]
   comments: ["<!-- ", " -->"]
   endings: [all]
   ignore:
@@ -47,18 +73,18 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
-  
-  
+
 prose:
-  rooturl: ''
-  siteurl: 'http://prose.github.io/starter/'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  media: 'images'
+  rooturl: ""
+  siteurl: "http://prose.github.io/starter/"
+  relativeLinks: "http://prose.github.io/starter/links.jsonp"
+  media: "images"
   ignore:
     - index.md
     - _config.yml
     - /_layouts
     - /_includes
 
-
-gems: [jekyll-paginate, jekyll-seo-tag]
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag

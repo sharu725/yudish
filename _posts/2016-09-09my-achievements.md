@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Did you know I went to heaven!"
+title:  "My achievements"
 ---
 
 Upon the onset of the Kali yuga and the departure of Krishna, Yudhishthira and his brothers retired, leaving the throne to their only descendant to survive the war of Kurukshetra, Arjuna's grandson, Parikshit. 
